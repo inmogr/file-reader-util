@@ -1,0 +1,28 @@
+{
+    "name": "file-reader-util",
+    "version": "1.0.0",
+    "prepublish": "tsc",
+    "description": "this is a utility package to help to handle select & drop file events",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "tslint": "tslint -p ./tsconfig.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/inmogr/node-ts-file-reader-util"
+    },
+    "author": "inmogr@msn.com",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^12.6.8",
+        "ts-node": "^8.3.0",
+        "tslint": "^5.19.0",
+        "tslint-config-prettier": "^1.18.0",
+        "typescript": "^3.7.2"
+    },
+    "engines": {
+        "node": "10"
+    }
+}
